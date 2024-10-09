@@ -131,7 +131,7 @@ python3 lab2.py --use_cuda --data_path ./data --num_workers 8 --optimizer adam
 ```
 
 ## Running C7.
-To conduct this experiment, you will need to comment out the following lines of code from lab2.py:
+To conduct this experiment, we will need to comment out the following lines of code from lab2.py:
 
 In BasicBlock:
 ```python
@@ -169,7 +169,7 @@ def count_gradients(model):
     """Count the number of gradients in a model."""
     return sum(p.numel() for p in model.parameters() if p.grad is not None)
 ```
-After initializing your model, I have added these functions to count and print the number of trainable parameters and gradients:
+After initializing my model, I have added these functions to count and print the number of trainable parameters and gradients:
 ```python
 # In the main function, after initializing the model:
 model = ResNet18().to(device)
