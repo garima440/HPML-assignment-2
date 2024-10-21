@@ -1,4 +1,4 @@
-# HPML-assignment-2
+# HPML-Lab-2
 
 ## Introduction
 This assignment provides experience in profiling machine learning training and inference workloads, which is crucial for improving system performance. We will work with a Convolutional Neural Network (CNN) in PyTorch to classify images from the CIFAR10 dataset, using the ResNet-18 model.
